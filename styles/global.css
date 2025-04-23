@@ -12,6 +12,7 @@
   --color-white: #ffffff;
   --color-gray: #464646;
   --color-orange: #ff6b00;
+  --color-purple: #60336a;
 
   /* fonts:  */
 
@@ -23,4 +24,8 @@ a {
   text-decoration: none;
   color: var(--color-white);
   cursor: pointer;
+}
+
+body {
+  background-color: var(--color-black);
 }

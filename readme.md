@@ -7,9 +7,11 @@ I'm developing this website just using the tecnologies:
 
 - HTML5 , for structure. []
   -Header HTML [x]
+  -Home HTML [x]
 
 -CSS3, for design. []
--Header CSS[]
+-Header CSS[x]
+-Home CSS [ ]
 
 -JS Vanilla, for interactivity []
 

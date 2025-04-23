@@ -1,8 +1,16 @@
 header {
   display: flex;
   justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 100px;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 90%;
+  }
 
   background-color: var(--color-black);
   color: var(--color-white);
@@ -22,7 +30,7 @@ header {
       height: 19px;
 
       li:hover {
-        border-bottom: 2px solid var(--color-white);
+        border-bottom: 2px solid var(--color-purple);
         padding-bottom: 57px;
       }
     }
@@ -47,5 +55,11 @@ header {
     border: 1px solid #ffffff;
     width: 180px;
     height: 47px;
+    transition: all 0.1s ease;
+  }
+
+  button:hover {
+    border-color: var(--color-purple);
+    background-color: var(--color-purple);
   }
 }
