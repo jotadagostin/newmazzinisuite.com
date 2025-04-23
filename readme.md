@@ -6,7 +6,11 @@ The website was already finished, but we decided to get a new and modern design 
 I'm developing this website just using the tecnologies:
 
 - HTML5 , for structure. []
-  -CSS3, for design. []
-  -JS Vanilla, for interactivity []
+  -Header HTML [x]
+
+-CSS3, for design. []
+-Header CSS[]
+
+-JS Vanilla, for interactivity []
 
 I hope you like it!
