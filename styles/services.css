@@ -1,0 +1,9 @@
+#services {
+  width: 100%;
+  height: 1196px;
+  background-color: var(--color-white);
+
+  .services-icons {
+    display: flex;
+  }
+}
