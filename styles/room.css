@@ -70,4 +70,24 @@
       height: 605px;
     }
   }
+
+  .click {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    span {
+      display: flex;
+      gap: 10px;
+      a {
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 152%;
+        color: var(--color-gray);
+      }
+    }
+  }
 }
