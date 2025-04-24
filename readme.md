@@ -8,12 +8,14 @@ I'm developing this website just using the tecnologies:
 - HTML5 , for structure. []
   -Header HTML [x]
   -Home HTML [x]
-  -Service HTML []
+  -Service HTML [x]
+  -Room(gallery) [x]
 
 -CSS3, for design. []
 -Header CSS[x]
 -Home CSS [x]
--Service CSS []
+-Service CSS [x]
+-Room(gallery) [x]
 
 -JS Vanilla, for interactivity []
 -Smoothi scrolling []
