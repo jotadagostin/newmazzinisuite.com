@@ -122,11 +122,15 @@
     }
 
     .pictures {
-      background-color: green;
       width: 716px;
       height: 719px;
+      position: relative;
 
       :nth-child(1) {
+        position: absolute;
+        left: 187px;
+        top: 0;
+        z-index: 0;
         width: 482px;
         height: 636px;
       }
@@ -134,22 +138,37 @@
         width: 467px;
         height: 233px;
         border-radius: 6.4918px;
+        left: -30px;
+        top: 320px;
+        box-shadow: 1.08197px 7.57377px 23.8033px rgba(0, 0, 0, 0.1);
+
+        position: absolute;
+        z-index: 1;
       }
       :nth-child(3) {
         width: 250px;
         height: 87px;
+        top: 600px;
+        left: 360px;
+        position: absolute;
         box-shadow: 1.08197px 7.57377px 23.8033px rgba(0, 0, 0, 0.1);
         border-radius: 6.4918px;
       }
       :nth-child(4) {
         width: 250px;
         height: 87px;
+        top: 150px;
+        left: 30px;
+        position: absolute;
         box-shadow: 1.08197px 7.57377px 23.8033px rgba(0, 0, 0, 0.1);
         border-radius: 6.4918px;
       }
       :nth-child(5) {
+        left: 350px;
+        top: -30px;
         width: 250px;
         height: 87px;
+        position: absolute;
         box-shadow: 1.08197px 7.57377px 23.8033px rgba(0, 0, 0, 0.1);
         border-radius: 6.4918px;
       }
