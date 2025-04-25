@@ -10,12 +10,14 @@ I'm developing this website just using the tecnologies:
   -Home HTML [x]
   -Service HTML [x]
   -Room(gallery) [x]
+  -About [x]
 
 -CSS3, for design. []
 -Header CSS[x]
 -Home CSS [x]
 -Service CSS [x]
 -Room(gallery) [x]
+-About [x]
 
 -JS Vanilla, for interactivity []
 -Smoothi scrolling []
