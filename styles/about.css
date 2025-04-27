@@ -60,10 +60,14 @@
     .img_paolo {
       position: absolute;
       top: 120px;
-      left: -80px;
+      left: -320px;
+      z-index: 1;
     }
 
     .img_verona {
+      position: absolute;
+      z-index: 0;
+      left: -200px;
     }
   }
 }
