@@ -1,0 +1,136 @@
+#footer {
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 434px;
+
+  .footer-links {
+    width: 117px;
+    height: 308px;
+    h1 {
+      font-family: "Manrope", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 133.02%;
+      color: var(--color-white);
+      margin-bottom: 26px;
+    }
+
+    ul {
+      li {
+        margin-bottom: 18px;
+      }
+      li a {
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 152%;
+        color: var(--color-white);
+      }
+      li a:hover {
+        color: var(--color-purple);
+      }
+    }
+  }
+
+  .footer-touch {
+    width: 317px;
+    height: 418px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-family: "Manrope", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 133.02%;
+      color: var(--color-white);
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-family: "Manrope", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 152%;
+      color: var(--color-gray);
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .footer-contact {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+
+      .contact-email {
+        input {
+          border: none;
+          padding: 20px;
+          background-color: transparent;
+          color: var(--color-gray);
+          font-family: "Manrope", sans-serif;
+        }
+      }
+    }
+    button {
+      background-color: var(--color-purple);
+      border: none;
+      color: var(--color-white);
+      width: 108px;
+      height: 62px;
+      cursor: pointer;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+
+  .footer-useful {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 117px;
+    height: 308px;
+    h1 {
+      font-family: "Manrope", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 133.02%;
+      color: var(--color-white);
+      margin-bottom: 26px;
+    }
+
+    ul {
+      text-align: end;
+      li {
+        margin-bottom: 18px;
+      }
+      li a {
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 152%;
+        color: var(--color-white);
+      }
+
+      li a:hover {
+        color: var(--color-purple);
+      }
+    }
+  }
+
+  .teste {
+    display: flex;
+    align-items: center;
+  }
+}
