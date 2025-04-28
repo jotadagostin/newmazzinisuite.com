@@ -24,6 +24,10 @@
       font-size: 32px;
       line-height: 110%;
       padding-top: 10px;
+
+      strong {
+        color: var(--color-purple);
+      }
     }
 
     img {
