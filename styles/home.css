@@ -76,3 +76,47 @@
     }
   }
 }
+
+@media screen and (max-width: 390px) {
+  #home {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+
+    .home-titles {
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 200px;
+
+      .title {
+        width: 390px;
+        height: 170px;
+        margin-bottom: 50px;
+
+        h1 {
+          font-size: 35px;
+          text-align: center;
+          letter-spacing: 0.1rem;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+
+    .home-services {
+      height: 180px;
+      margin-bottom: 40px;
+    }
+
+    .home-banner {
+      display: flex;
+      align-items: end;
+      img {
+        width: 390px;
+        height: 240px;
+      }
+    }
+  }
+}
