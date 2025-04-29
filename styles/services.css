@@ -178,6 +178,7 @@
 
 @media screen and (max-width: 390px) {
   #services {
+    margin-bottom: 400px;
     .column-mobile {
       display: flex;
       flex-direction: column-reverse;
@@ -187,12 +188,30 @@
         flex-direction: column;
         width: 390px;
         height: 294px;
+        margin-bottom: 40px;
 
         .icon {
           width: 60%;
           align-items: center;
           justify-content: space-between;
           margin-bottom: 15px;
+        }
+      }
+    }
+
+    .numbers-and-pictures {
+      flex-direction: column;
+
+      .numbers {
+        width: 390px;
+        height: 755px;
+        padding-top: 30px;
+
+        .number {
+          p {
+            width: 100%;
+            height: 120px;
+          }
         }
       }
     }
