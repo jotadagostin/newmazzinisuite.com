@@ -3,12 +3,12 @@ header {
   justify-content: space-around;
   justify-content: center;
   align-items: center;
+
   height: 100px;
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     width: 90%;
   }
 
@@ -26,8 +26,13 @@ header {
       font-size: 16px;
       line-height: 19px;
       text-align: center;
-      width: 463px;
+      width: 663px;
       height: 19px;
+
+      li > a > img {
+        width: 20px;
+        height: 20px;
+      }
 
       li:hover {
         border-bottom: 2px solid var(--color-purple);
