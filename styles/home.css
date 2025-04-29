@@ -68,9 +68,11 @@
   }
 
   .home-banner {
+    width: 100%;
+    height: 565px;
     img {
       width: 100%;
-      height: 615px;
+      height: 565px;
     }
   }
 }
