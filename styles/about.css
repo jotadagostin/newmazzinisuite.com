@@ -73,4 +73,66 @@
       left: -555px;
     }
   }
+
+  .about-img-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #about {
+    flex-direction: column;
+    align-items: center;
+    height: 1600px;
+    padding-left: 0;
+
+    .about-me {
+      padding-top: 70px;
+      width: 390px;
+
+      h1 {
+        padding: 10px;
+      }
+
+      img {
+        padding-left: 10px;
+      }
+
+      p {
+        width: 390px;
+        padding: 10px;
+      }
+
+      button {
+        margin-left: 10px;
+      }
+    }
+
+    .about-img {
+      display: none;
+    }
+
+    .about-img-mobile {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      :nth-child(1) {
+        width: 270px;
+        position: absolute;
+        top: -540px;
+        z-index: 1;
+        left: -230px;
+      }
+
+      :nth-child(2) {
+        width: 335px;
+        height: 700px;
+        position: absolute;
+        top: -700px;
+        left: -140px;
+        z-index: 0;
+      }
+    }
+  }
 }
