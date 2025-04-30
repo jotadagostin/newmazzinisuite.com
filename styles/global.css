@@ -20,6 +20,11 @@
   font-family: "Manrope", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+  background-color: var(--color-black);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -28,11 +33,6 @@ a {
   text-decoration: none;
   color: var(--color-white);
   cursor: pointer;
-}
-
-body {
-  background-color: var(--color-black);
-  overflow-x: hidden;
 }
 
 ul {
