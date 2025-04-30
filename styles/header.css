@@ -96,8 +96,9 @@ header {
     gap: 20px;
     padding: 10px;
     align-items: end;
-    width: 390px;
+    width: 100vw;
     height: 60px;
+    background-color: pink;
   }
 
   body {
