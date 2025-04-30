@@ -116,13 +116,14 @@
       display: flex;
       flex-direction: column;
       position: relative;
+      width: 390px;
 
       :nth-child(1) {
         width: 270px;
         position: absolute;
         top: -540px;
         z-index: 1;
-        left: -230px;
+        left: 30px;
       }
 
       :nth-child(2) {
@@ -130,7 +131,7 @@
         height: 700px;
         position: absolute;
         top: -700px;
-        left: -140px;
+        left: 40px;
         z-index: 0;
       }
     }
