@@ -113,7 +113,7 @@
     }
 
     .about-img-mobile {
-      display: flex;
+      display: none;
       flex-direction: column;
       position: relative;
       width: 390px;
