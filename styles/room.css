@@ -92,3 +92,34 @@
     }
   }
 }
+
+@media screen and (max-width: 390px) {
+  #room {
+    height: 1600px;
+    justify-content: start;
+    align-items: center;
+
+    .room-titles {
+      justify-content: center;
+      align-items: center;
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .room-gallery {
+      flex-direction: column;
+      height: auto;
+
+      .one-picture {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
