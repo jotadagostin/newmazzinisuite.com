@@ -232,7 +232,7 @@
       .pictures {
         width: 390px;
         position: relative;
-        display: none;
+        overflow: hidden;
 
         :nth-child(1) {
           position: absolute;

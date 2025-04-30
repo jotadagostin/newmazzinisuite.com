@@ -113,9 +113,10 @@
     }
 
     .about-img-mobile {
-      display: none;
+      display: flex;
       flex-direction: column;
       position: relative;
+      /* overflow: hidden; */
       width: 390px;
 
       :nth-child(1) {
