@@ -147,3 +147,40 @@
     align-items: center;
   }
 }
+
+/* mobile version */
+@media screen and (max-width: 390px) {
+  #footer {
+    flex-direction: column;
+
+    .footer-links {
+      width: 390px;
+      padding: 10px;
+      h1 {
+        text-align: center;
+      }
+      ul {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+
+    .footer-touch {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .footer-useful {
+      width: 390px;
+      padding-top: 20px;
+      h1 {
+        text-align: center;
+        width: 390px;
+      }
+      ul {
+        text-align: center;
+        width: 390px;
+      }
+    }
+  }
+}
