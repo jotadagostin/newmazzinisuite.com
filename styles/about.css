@@ -130,14 +130,13 @@
         left: 30px;
         overflow: auto; */
         z-index: 2;
-        transform: translate(-40px, 300px);
+        transform: translate(-59px, 420px);
       }
 
       :nth-child(2) {
-        overflow: auto;
         width: 335px;
         height: 700px;
-        /* transform: translate(-50px, -50px); */
+        transform: translate(27px, -126px);
         z-index: 1;
         /* position: absolute; */
         /* top: -700px;
