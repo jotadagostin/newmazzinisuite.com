@@ -6,5 +6,7 @@ document.querySelectorAll("#menu a").forEach((link) => {
   });
 });
 
+// to fix the scrow-x problem(translate problem):
+
 document.documentElement.style.overflowX = "hidden";
 document.body.style.overflowX = "hidden";
