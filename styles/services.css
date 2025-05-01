@@ -231,7 +231,8 @@
 
       .pictures {
         width: 390px;
-        position: relative;
+        /* position: relative; */
+        display: none;
         /* overflow: hidden; */
 
         :nth-child(1) {
