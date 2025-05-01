@@ -208,8 +208,8 @@
 
     .numbers-and-pictures {
       flex-direction: column;
-      height: 100%;
-      overflow-x: hidden;
+      height: 80%;
+      /* overflow-x: hidden; */
 
       .numbers {
         display: flex;
@@ -235,6 +235,7 @@
         height: 800px;
         /* position: relative; */
         display: flex;
+        margin-top: -180px;
         overflow-x: hidden;
         :nth-child(1) {
           /* position: absolute;

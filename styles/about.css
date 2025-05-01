@@ -129,13 +129,13 @@
         left: 30px;
         overflow: auto; */
         z-index: 2;
-        transform: translate(-59px, 400px);
+        transform: translate(-59px, 300px);
         border-radius: 10px;
       }
 
       :nth-child(2) {
         width: 335px;
-        height: 1900px;
+        height: 680px;
         transform: translate(25px, -266px);
         z-index: 1;
         border-radius: 10px;
