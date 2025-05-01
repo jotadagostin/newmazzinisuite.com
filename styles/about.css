@@ -117,26 +117,32 @@
       flex-direction: column;
       align-items: center;
       gap: 1rem;
-      position: relative;
+      /* position: relative; */
       width: 100%;
       max-width: 390px;
       margin: 0 auto;
 
       :nth-child(1) {
         width: 270px;
-        position: absolute;
-        top: -540px;
+        /* position: absolute; */
+        /* top: -540px;
         z-index: 1;
         left: 30px;
+        overflow: auto; */
+        z-index: 2;
+        transform: translate(-40px, 300px);
       }
 
       :nth-child(2) {
+        overflow: auto;
         width: 335px;
         height: 700px;
-        position: absolute;
-        top: -700px;
+        /* transform: translate(-50px, -50px); */
+        z-index: 1;
+        /* position: absolute; */
+        /* top: -700px;
         left: 40px;
-        z-index: 0;
+        z-index: 0; */
       }
     }
   }
