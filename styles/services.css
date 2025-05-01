@@ -209,6 +209,7 @@
     .numbers-and-pictures {
       flex-direction: column;
       height: 100%;
+      overflow-x: hidden;
 
       .numbers {
         display: flex;
@@ -234,8 +235,7 @@
         height: 800px;
         /* position: relative; */
         display: flex;
-        overflow: hidden;
-        background-color: gray;
+        overflow-x: hidden;
         :nth-child(1) {
           /* position: absolute;
           left: 48px;
