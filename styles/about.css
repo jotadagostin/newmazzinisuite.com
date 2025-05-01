@@ -121,7 +121,6 @@
       width: 100%;
       max-width: 390px;
       margin-top: 160px;
-      overflow: hidden;
       :nth-child(1) {
         width: 270px;
         /* position: absolute; */
