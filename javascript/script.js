@@ -5,3 +5,6 @@ document.querySelectorAll("#menu a").forEach((link) => {
     document.querySelector("#menuCheckbox").checked = false;
   });
 });
+
+document.documentElement.style.overflowX = "hidden";
+document.body.style.overflowX = "hidden";
