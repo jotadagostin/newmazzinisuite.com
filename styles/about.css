@@ -120,8 +120,8 @@
       /* position: relative; */
       width: 100%;
       max-width: 390px;
-      margin: 0 auto;
-
+      margin-top: 160px;
+      overflow: hidden;
       :nth-child(1) {
         width: 270px;
         /* position: absolute; */
@@ -130,14 +130,16 @@
         left: 30px;
         overflow: auto; */
         z-index: 2;
-        transform: translate(-59px, 420px);
+        transform: translate(-59px, 400px);
+        border-radius: 10px;
       }
 
       :nth-child(2) {
         width: 335px;
-        height: 700px;
-        transform: translate(27px, -126px);
+        height: 1900px;
+        transform: translate(25px, -266px);
         z-index: 1;
+        border-radius: 10px;
         /* position: absolute; */
         /* top: -700px;
         left: 40px;
