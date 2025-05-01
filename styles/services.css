@@ -235,7 +235,7 @@
         /* position: relative; */
         display: flex;
         overflow: hidden;
-
+        background-color: gray;
         :nth-child(1) {
           /* position: absolute;
           left: 48px;
@@ -243,19 +243,20 @@
           z-index: 0;
           width: 342px;
           height: 656px;
-          transform: translate(-139px, 106px);
+          transform: translate(-159px, 106px);
         }
 
         :nth-child(2) {
           /* left: -30px;
           top: 370px;
           position: absolute; */
+
           z-index: 1;
           width: 350px;
           height: 245px;
           border-radius: 6.4918px;
           box-shadow: 1.08197px 7.57377px 23.8033px rgba(0, 0, 0, 0.1);
-          transform: translate(20px, 90px);
+          transform: translate(35px, 90px);
         }
         :nth-child(3) {
           width: 250px;
