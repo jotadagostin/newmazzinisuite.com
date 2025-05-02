@@ -11,6 +11,7 @@ I'm developing this website just using the tecnologies:
   -Service HTML [x]
   -Room(gallery) [x]
   -About [x]
+  -Footer [x]
 
 -CSS3, for design. []
 -Header CSS[x]
@@ -18,8 +19,10 @@ I'm developing this website just using the tecnologies:
 -Service CSS [x]
 -Room(gallery) [x]
 -About [x]
+-Footer [x]
 
--JS Vanilla, for interactivity []
--Smoothi scrolling []
+-JS Vanilla, for interactivity [x]
+-Smooth scrolling [x]
+-Mobile version [x]
 
 I hope you like it!
